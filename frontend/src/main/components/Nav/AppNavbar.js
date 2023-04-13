@@ -22,15 +22,12 @@ export default function AppNavbar() {
                 <NavDropdown.Item as={Link} to="/towns/ArroyoGrande">Arroyo Grande</NavDropdown.Item>
                 <NavDropdown.Item as={Link} to="/towns/AvilaBeach">Avila Beach</NavDropdown.Item>
                 <NavDropdown.Item as={Link} to="/towns/LosAlamos">Los Alamos</NavDropdown.Item>
-<<<<<<< HEAD
                 <NavDropdown.Item as={Link} to="/towns/Pasadena">Pasadena</NavDropdown.Item>
                 <NavDropdown.Item as={Link} to="/towns/SantaBarbara">Santa Barbara</NavDropdown.Item>
                 <NavDropdown.Item as={Link} to="/towns/Alhambra">Alhambra</NavDropdown.Item>
                 <NavDropdown.Item as={Link} to="/towns/Cupertino">Cupertino</NavDropdown.Item>
                 <NavDropdown.Item as={Link} to="/towns/SanDiego">San Diego</NavDropdown.Item>
-=======
                 <NavDropdown.Item as={Link} to="/towns/Irvine">Irvine</NavDropdown.Item>
->>>>>>> e4019ed (ab - added route in AppNavbar.js for Irvine)
               </NavDropdown>
             </Nav>
           </Navbar.Collapse>
