@@ -15,7 +15,6 @@ export default function AppNavbar() {
           <>
             {/* be sure that each NavDropdown has a unique id and data-testid */}
           </>
-
           <Navbar.Collapse>
             {/* This `nav` component contains all navigation items that show up on the left side */}
             <Nav className="me-auto">
@@ -24,6 +23,9 @@ export default function AppNavbar() {
                 <NavDropdown.Item as={Link} to="/towns/AvilaBeach">Avila Beach</NavDropdown.Item>
                 <NavDropdown.Item as={Link} to="/towns/LosAlamos">Los Alamos</NavDropdown.Item>
                 <NavDropdown.Item as={Link} to="/towns/SantaBarbara">Santa Barbara</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/towns/Alhambra">Alhambra</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/towns/Cupertino">Cupertino</NavDropdown.Item>
+		<NavDropdown.Item as={Link} to="/towns/SanDiego">San Diego</NavDropdown.Item>
               </NavDropdown>
             </Nav>
           </Navbar.Collapse>
